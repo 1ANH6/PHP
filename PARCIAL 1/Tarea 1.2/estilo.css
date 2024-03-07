@@ -1,0 +1,29 @@
+body
+{
+    font-size: 14px;;
+    font-family: 'Lucida Sans Unicode', sans-serif;;
+    margin: 45px auto;
+    width: 900px;
+}
+h1
+{
+    text-align: center;
+}
+h5
+{
+    margin: 10px auto;
+    text-align: center;
+    width: 900px;
+}
+table.limites
+{
+    
+    margin: 10px auto;
+    text-align: left;
+}
+table.casos
+{
+    
+    margin: 15px;
+    text-align: left;
+}
