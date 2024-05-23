@@ -1,0 +1,85 @@
+body
+{
+    background-image: url("imagenes/img2.jpg");
+    background-size: cover;
+    /*background-position: center;*/
+}
+nav
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5% 0px 5%;
+    font-weight: bold;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#inicio
+{
+    font-size: 25px;
+    transition: font-size 0.3s;
+    color: white;
+    text-decoration: none;
+}
+#inicio:hover
+{
+    font-size: 30px;
+    color: coral;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    background-color: wheat;
+    height: 450px;
+    width: 30%;
+    margin: 125px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.datos 
+{
+    width: 300px;
+    /*background-color: red;*/
+}
+.datos td
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.txtbox
+{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+.btn-enviar
+{
+    width: 50%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: rgb(80, 156, 80);
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+}
+.btn-enviar:hover 
+{
+    background-color: salmon;
+    color: white;
+}
+.datos tr .rf
+{
+    height: 20px;
+}
+.error
+{
+    color: red;
+}

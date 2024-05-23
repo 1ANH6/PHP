@@ -1,0 +1,27 @@
+CREATE DATABASE Escuela;
+USE Escuela;
+
+CREATE TABLE Usuarios
+(
+	id int primary key auto_increment,
+	nombre varchar(50) not null,
+    usuario varchar(50) not null,
+    correo varchar(50) not null,
+    contrasenia varchar(50) not null
+);
+CREATE TABLE Alumnos
+(
+	id int primary key auto_increment,
+	matricula varchar(10) not null,
+    apellidos varchar(50) not null,
+    nombre varchar(50) not null,
+    fecha_nacimiento varchar(50) not null,
+    direccion varchar(50) not null,
+    telefono varchar(10) not null,
+    correo varchar(50) not null,
+    tutor varchar(50) not null
+);
+SELECT * FROM Alumnos;
+SELECT * FROM Usuarios;
+INSERT INTO Alumnos (matricula, apellidos, nombre, fecha_nacimiento, direccion, telefono, correo, tutor) VALUES ("ABC", "Vega Gordillo", "Noé", "20/10/2007", "En su casa", "4451190659", "el.bluit@gmail.com", "Marcos Vega");
+INSERT INTO Alumnos (matricula, apellidos, nombre, fecha_nacimiento, direccion, telefono, correo, tutor) VALUES ("ABD", "Gasca Ruiz", "Maytee", "31/05/2007", "La joyita Tecnologico #14", "4452242397", "one@gmail.com", "Juan Gasca");

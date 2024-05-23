@@ -1,0 +1,41 @@
+nav
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5% 0px 5%;
+    font-weight: bold;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.logo
+{
+    height: 110px;
+    width: 150px;
+}
+a
+{
+    font-size: 25px;
+    transition: font-size 0.3s;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    font-size: 30px;
+    color: coral;
+}
+p
+{
+    font-size: 25px;
+    color: wheat;
+}
+#img1
+{
+    height: 100%;
+    width: 100%;
+}
